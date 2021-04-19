@@ -1,4 +1,4 @@
-<x-master-layout>
+<x-master-layout title=' | Catalogue'>
 
 <!--@dump($produits) -->
 <div class="container">
