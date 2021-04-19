@@ -19,13 +19,14 @@ class DatabaseSeeder extends Seeder
        $this->call([
            // ProduitSeeder::class,
               CategorySeeder::class,
+              RoleSeeder::class,
             //liste de tous les autres seedrers et factories
            ]);
-       $this->call([
-           // ProduitSeeder::class,
-           RoleSeeder::class,
-            //liste de tous les autres seedrers et factories
-           ]);
+    //    $this->call([
+    //        // ProduitSeeder::class,
+    //        RoleSeeder::class,
+    //         //liste de tous les autres seedrers et factories
+    //        ]);
          //liste de tous les autres factories
          //Produit::factory(50)->create();
         //Category::factory(50)->create();
